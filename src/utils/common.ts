@@ -1,0 +1,22 @@
+export enum TOPICS_CATEGORIES {
+  NFT = "NFT",
+  CHAT = "CHAT",
+  DAO = "DAO",
+  CRYPTO = "CRYPTO",
+  GLOBAL = "GLOBAL",
+  ALL = "",
+}
+
+export enum TOPICS_AUDIENCE {
+  PUBLIC = "PUBLIC",
+  PRIVATE = "PRIVATE",
+  FOLLOWED = "FOLLOWED",
+  DAO_LIST = "DAO_LIST",
+}
+
+
+export enum TOPIC_STATUS {
+  PUBLISHED = 'PUBLISHED',
+  ENDED = 'ENDED',
+  UNPUBLISHED = 'UNPUBLISHED',
+}
